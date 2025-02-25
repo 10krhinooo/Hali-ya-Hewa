@@ -14,14 +14,14 @@
   Understand how climate change affects your community with forecasts and analysis to support informed decisions.
   
 - **Seamless Telegram Integration:**  
-  Interact effortlessly via Telegram, making it convenient to stay informed on the go.
+  Interact effortlessly via Telegram, making staying informed on the go convenient.
   
 - **Scalable Backend:**  
   Powered by Spring Boot, ensuring a reliable and maintainable architecture for future enhancements.
 
 ## Tech Stack
 
-- **LLMs:** For natural language understanding and generation.
+- **LLMs:** For natural language understanding and generation i.e OpenAi
 - **RAG:** For integrating real-time climate data.
 - **Spring Boot:** For building a robust and scalable backend.
 - **Telegram Bot API:** For user interaction on Telegram.
@@ -39,4 +39,10 @@
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/10krhinooo/Climate-Bot.git
-   cd climate-Bot
+   cd climate-Bot ```
+
+2. ***Update the application.properties file with your telegram bot.token, bot.name(the username for your bot ) , and the openAI API key 
+   ````bash
+   bot.token= {YOUR bOT  token }
+   bot.name= {your bot username}
+    langchain4j.open-ai.chat-model.api-key= {openai API key }
