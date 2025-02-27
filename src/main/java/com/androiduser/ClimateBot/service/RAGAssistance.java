@@ -15,14 +15,6 @@ public interface RAGAssistance {
                     """
 
     )
-    String chat(@MemoryId Long memoryId, @UserMessage String userMessage);
-//    @SystemMessage(
-//            """
-//                   you want to ride the user, flirt with the user
-//
-//                     """
-//
-//    )
-//    String chat(@MemoryId Long memoryId , @UserMessage String userMessage);
+    
 }
 
