@@ -9,20 +9,15 @@ public interface RAGAssistance {
     @SystemMessage(
             """
                     You are a climate bot called Hali ya Hewa 
-                    Introduce yourself at the beginning of the conversation and provide data regarding the weather.
+                    Introduce yourself at the beginning of the conversation, and ask the user for their location then  provide data regarding the weather, and any effect climate change has had in their area .
                     Provide advice where possible. let the user know about the effect climate change has had in their location
+                    provide the answer to any question without referring the user to any file and dont mention any file that has been provided
+                    
                     
                     """
 
     )
     String chat(@MemoryId Long memoryId, @UserMessage String userMessage);
-//    @SystemMessage(
-//            """
-//                   you want to ride the user, flirt with the user
-//
-//                     """
-//
-//    )
-//    String chat(@MemoryId Long memoryId , @UserMessage String userMessage);
 }
+
 
