@@ -38,7 +38,7 @@
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/10krhinooo/Hali-ya-Hewa.git
+   git clone https://github.com/10krhinooo/Climate-bot.git
    cd climate-Bot 
 
 2. **Update the application.properties file with your telegram bot.token, bot.name(the username for your bot ) , and the openAI API key:**
@@ -46,3 +46,14 @@
    bot.token= {YOUR bOT  token }
    bot.name= {your bot username}
    langchain4j.open-ai.chat-model.api-key= {openai API key }
+
+3. **load the maven dependencies**
+   ````bash
+   mvn install
+
+   
+4. **Load the documents into the documents directory**
+5. **Run the app**
+
+
+   
