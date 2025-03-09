@@ -1,6 +1,6 @@
 # Hali ya Hewa
 
-**Hali ya Hewa** is an AI-powered Telegram chatbot that delivers personalized, location-specific climate change data and insights. Built using cutting-edge technologies like Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and a robust Spring Boot backend, ClimateChat is designed to keep you informed about the local impacts of climate change.
+**Hali ya Hewa** is an AI-powered Telegram chatbot that delivers personalized, location-specific climate change data and insights. Built using cutting-edge technologies like Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Langchain, and a robust Spring Boot backend, ClimateChat is designed to keep you informed about the local impacts of climate change.
 
 ## Features
 
