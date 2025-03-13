@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class AIServiceimpl implements OpenAIService {
 
-    @Value("${langchain4j.open-ai.chat-model.api-key}")
+    @Value("${OPENAI_API_KEY}")
     String APIKey;
 
 
